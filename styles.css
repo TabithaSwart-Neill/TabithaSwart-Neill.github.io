@@ -13,44 +13,47 @@ header {
     text-align: center;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+footer {
+    text-align: center;
+    color: rgb(24, 2, 2);
+    background-color: #FDDC5C;
+    padding: 10px;
+    /* color: #fff; */
+}
+
 img {
     background-color: #FDDC5C;
     border: 3px dashed grey;
-    /* width: 100%; */
-    width: 40vh;
-    height: 60vh;
+    height: 30vh;
     object-fit: contain;
     object-position: top;
 }
-/* .main {
-    display: flex ;
-    padding: 20px;
-} */
-
-/* .port-pic {
-    display: flex;
-    padding: 20px;
-}  */
-
-/* .card {
-    display: flex;
-    margin: 10px;
-    padding: 20px;
-    background-color: #999999;
-} */
-
-/* h1 {
-    display: flex;
-    font-size: 2.5rem;
-    line-height: 2.5rem;;
-    color: #fff;
-} */
-
-/* h2 {
-    font-size: 3rem;
-    line-height: 3rem;
-    color: #fff;
-} */
 
 nav {
     margin: 10px;
