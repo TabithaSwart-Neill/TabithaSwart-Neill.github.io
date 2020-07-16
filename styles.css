@@ -23,7 +23,7 @@ img {
 }
 .main {
     display: flex ;
-    padding: 5px;
+    padding: 20px;
 }
 
 .port-pic {
@@ -34,14 +34,15 @@ img {
 .card {
     display: flex;
     margin: 10px;
-    /* padding: 10px; */
+    padding: 20px;
     background-color: #999999;
 }
 
 nav {
-    display: flex;
+    /* display: flex;
+    align-items: center; */
     margin: 10px;
-    /* padding: 10px; */
+    padding: 10px;
     background-color: #FDDC5C;
 }
 
