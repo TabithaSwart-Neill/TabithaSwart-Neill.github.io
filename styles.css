@@ -14,9 +14,10 @@ header {
 }
 
 img {
-    /* background-color: #FDDC5C; */
-    /* border: 3px dashed grey; */
+    background-color: #FDDC5C;
+    border: 3px dashed grey;
     /* width: 100%; */
+    width: 40vh;
     height: 60vh;
     object-fit: contain;
     object-position: top;
@@ -38,12 +39,32 @@ img {
     background-color: #999999;
 }
 
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
 nav {
-    /* display: flex;
-    align-items: center; */
     margin: 10px;
     padding: 10px;
     background-color: #FDDC5C;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: #fda103;
+    border-bottom: 2px solid #fda103;
 }
 
 form {
